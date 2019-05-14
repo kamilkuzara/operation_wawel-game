@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Chest
+comment0.text=\r\n\ Class\ Chest\ is\ a\ part\ of\ "Operation\ Wawel"\ application.\r\n\ It\ extends\ class\ Tool\ with\ features\ and\ behaviours\ \r\n\ characteristic\ for\ chests.\ The\ class\ provides\ implementations\r\n\ of\ Tool's\ abstract\ methods.\r\n\r\n\ @author\ Kamil\ Kuzara\r\n\ @version\ 2018.11\r\n
+comment1.params=name\ description\ weight
+comment1.target=Chest(java.lang.String,\ java.lang.String,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Chest\r\n
+comment2.params=object
+comment2.target=void\ use(java.lang.Object)
+comment2.text=\r\n\ Use\ the\ chest,\ i.e.\ open\ it.\ When\ the\ chest\ is\ open,\ all\ its\ \r\n\ contents\ drop\ out\ in\ the\ room.\ The\ method\ will\ only\ be\ executed\r\n\ if\ the\ provided\ parameter\ is\ of\ type\ Room.\ The\ room\ provided\ should\r\n\ be\ the\ one\ in\ which\ the\ chest\ is.\r\n\ \r\n\ @param\ Object\ object\ to\ work\ with\ (must\ be\ of\ type\ Room)\r\n
+comment3.params=item
+comment3.target=void\ addItem(Item)
+comment3.text=\r\n\ Add\ the\ item\ to\ the\ chest's\ contents\ list,\ i.e.\ put\r\n\ the\ item\ in\ the\ chest.\ Although\ it\ is\ possible,\ one\ should\ not\r\n\ add\ another\ chest\ here,\ because\ it\ makes\ little\ sense.\r\n\ \r\n\ @param\ Item\ the\ item\ to\ be\ added\r\n
+numComments=4

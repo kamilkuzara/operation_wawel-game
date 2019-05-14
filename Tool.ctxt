@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Tool
+comment0.text=\r\n\ Class\ Tool\ is\ a\ part\ of\ "Operation\ Wawel"\ application.\r\n\ It\ extends\ class\ Item\ with\ behaviours\ characteristic\ \r\n\ for\ tools.\r\n\r\n\ @author\ Kamil\ Kuzara\r\n\ @version\ 2018.11\r\n
+comment1.params=name\ description\ weight
+comment1.target=Tool(java.lang.String,\ java.lang.String,\ int)
+comment2.params=object
+comment2.target=void\ use(java.lang.Object)
+comment2.text=\r\n\ The\ abstract\ method\ to\ be\ implemented\ by\ subclasses\r\n\ of\ this\ class.\ The\ methods\ implement\ the\ action\ of\r\n\ using\ a\ particular\ tool.\r\n\ \r\n\ @param\ Object\ an\ object\ to\ work\ with\r\n
+numComments=3
